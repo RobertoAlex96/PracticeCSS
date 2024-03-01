@@ -1,0 +1,136 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+main{
+    display: flex;
+    height: 400px;
+    width: 650px;
+    margin-top: 150px;
+}
+
+
+.left{
+    display: block;
+    height: 400px;
+    width:280px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: whitesmoke;
+}
+
+
+.score{
+    display:flex;
+    flex-direction: column;
+    width:150px;
+    height: 150px;
+    border-radius: 100px;
+    justify-content: center;
+    margin:auto;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+h2{
+    color: rgba(245, 245, 245, 0.808);
+    font-weight: 400;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.div1{
+    margin: -40px 0 2px;
+    font-size: 50px;
+    color:whitesmoke;
+    font-weight: 600;
+}
+.div2{
+    font-weight: 600;
+    font-size: 13px;
+    color: rgba(245, 245, 245, 0.687);
+    margin: -8px 0;
+}
+.div3{
+    margin: auto;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    color: rgba(245, 245, 245, 0.644);
+    font-size: 14px;
+}
+
+h1{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+
+
+
+.right{
+    display: block;
+    height: 400px;
+    width: 315px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+}
+.right h1{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 20px;
+}
+table, td{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    margin-bottom: 10px;
+}
+img{
+    margin-right: 20px;
+    width: 20px;
+}
+
+.reaction{
+    color: hsl(0, 100%, 67%);
+}
+.memory{
+    color: hsl(39, 100%, 56%);
+}
+.verbal{
+    color: hsl(166, 100%, 37%);
+}
+.visual{
+    color: sl(234, 85%, 45%);
+}
+.score1{
+    color: grey;
+    font-weight: 600;
+}
+span{
+    color: black;
+}
+
+
+button{
+    height: 50px;
+    width: 220px;
+    border-radius: 20%;
+    border: 0;
+    background-color: rgb(63, 70, 112);
+    font-size: 16px;
+    color: whitesmoke;
+}
+button:hover{
+    cursor: pointer;
+}
