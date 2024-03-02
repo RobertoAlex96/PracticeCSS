@@ -1,0 +1,78 @@
+body{
+    font-display: flex;
+    background-color: rgb(251, 236, 206);
+    padding:30px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 5em;
+}
+main{
+    display:flex;
+    width: 70%;
+    margin: auto;
+    border-radius: 15px;
+}
+div{
+    margin:2.5em;
+}
+
+article1{
+    background-color: hsl(31, 77%, 52%);
+    height:28em;
+    border-radius: 15px 0 0 15px;
+}
+article2{
+    background-color: hsl(184, 100%, 22%);
+}
+article3{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 15px 15px 0;
+
+}
+h1{
+    font-family: "Big Shoulders Display", sans-serif;
+    color: white;
+    padding-left: 1.2em;
+    font-weight: 500;
+    font-size: 35px;
+}
+p{
+    font-family: "Lexend Deca", sans-serif;
+    color: rgba(255, 255, 255, 0.568);
+    font-weight: 300;
+    font-size: 15px;
+    width: 76%;
+    margin: 2.5em;
+    line-height: 25px;
+}
+button{
+    height: 40px;
+    width:50%;
+    margin-left: 65px;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    background-color: rgb(255, 241, 241);
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 13px;
+    font-weight: 350;
+    border-radius: 25px;
+}
+.button1{
+    color: hsl(31, 77%, 52%);
+}
+.button2{
+    color: hsl(184, 100%, 22%);
+}
+.button3{
+    color: hsl(179, 100%, 13%);
+}
+button:hover{
+    background-color: rgba(227, 224, 224, 0.759);
+    cursor: pointer;
+    height: 50px;
+    width:60%;
+    margin-left:55px;
+    font-size: 18px;
+}
