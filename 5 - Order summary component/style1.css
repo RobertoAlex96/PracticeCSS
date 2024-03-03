@@ -1,0 +1,83 @@
+
+body{
+    display: flex;
+    font-family: "Red Hat Display", sans-serif;
+    justify-content: center;
+    align-items: center; 
+    background: linear-gradient(#08258c, #678e86);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    width: 22.9rem;
+    height: 620px;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 10px 22px #08258c;
+}
+.image_container img{
+    width: 23rem;
+    border-radius: 15px 15px 0 0;
+}
+.description_container{
+    width: 70%;
+    text-align: center;
+    margin-top: 15px;  
+}
+h1{
+    font-weight: 700;
+    font-size:25px;
+    color: rgba(0, 0, 0, 0.795);
+}
+p{
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.594);
+    line-height: 1.5rem;;
+}
+.secondary{
+    display: flex;
+    width: 80%;
+    flex-flow: row;
+    margin-top:30px;
+    font-size: 13px;
+}
+.div3{
+    margin-left: 90px;;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.div2{
+    margin-left: 15px;
+    line-height: 1.2rem;
+    margin-top: 5px;
+}
+span{
+    color: rgba(0, 0, 0, 0.594);
+    font-weight: 650;
+}
+button{
+    width: 270px;
+    height: 50px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 0;
+    margin: 5px;
+    background-color: white;
+}
+button:hover{
+    background-color: hsl(243, 57%, 52%);
+    color: white;
+    cursor: pointer;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: white;
+}
+
