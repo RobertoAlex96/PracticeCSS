@@ -1,0 +1,78 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    padding: 120px;
+    margin: 0;
+    color: white;
+}
+main{
+    display:flex;
+    height: 415px;
+}
+
+left{
+    width: 50%;
+    display: block;
+    padding:50px;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 15px 0 0 15px;
+}
+
+article{   
+    width:85%; 
+}
+
+h1{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.774);
+}
+#word1{
+    color: hsl(277, 64%, 61%);
+}
+p{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5rem;
+    letter-spacing: 0.04rem;
+    color: rgba(255, 255, 255, 0.645);
+}
+
+.stats{
+    display: inline-flex;
+    height: 80px;
+    margin-top: 50px;
+    padding: ;
+
+}
+div{
+    height: 60px;
+    width: 100px;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+}
+span{
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.774);
+    font-weight: 600;
+    text-transform: none;
+}
+div{
+    font-size: 11px;
+    letter-spacing: 0.1rem;
+    color: rgba(255, 255, 255, 0.645);
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.5;
+}
+right{
+    width: 50%;
+    background-color: hsl(244, 38%, 16%);
+ }
+ img{
+    width: 100%;
+    border-radius: 0 15px 15px 0;
+ }
