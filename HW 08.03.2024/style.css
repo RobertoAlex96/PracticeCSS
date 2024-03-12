@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Opan Sans", sans-serif;
+    color: whitesmoke;
+    background-image: linear-gradient(black 30%, red);
+    display: flex;
+    flex-direction: column;
+    width: 100vw 0;
+}
+.header{
+    height: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    line-height: 25px;
+}
+h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+.header p{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.742);
+}
+img{
+    width: 12rem;
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    height: 40rem;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.left_box{
+    border: 1px solid aqua;
+    height: 28rem;
+    width: 22rem;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    border-bottom: 4rem solid aqua;
+}
+.left_box h2{
+    color:aqua;
+    font-weight: 400;
+}
+.left_box span{
+    margin-left: 10rem;
+    font-size: 1.2rem;
+}
+.left_box p{
+    line-height: 1.5rem;
+}
+.plans_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 18rem;
+    height:4rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: rgba(63, 63, 63, 0.781);
+    margin-top: 2rem;
+    border-radius: 4rem;
+    border: 0;
+}
+.plans_left button{
+    color:aqua;
+}
+.plans_left p{
+    color: whitesmoke;
+    font-size: 1rem;
+    line-height: 0.8rem;
+    font-weight: 400;
+}
+
+
+.right_box{
+    border: 1px solid orange;
+    height: 20rem;
+    width: 22rem;
+    height: 28rem;
+    padding: 0 1rem;
+    border-bottom: 4rem solid orange;
+    border-radius: 2rem;
+}
+.right_box h2{
+    color: orange;
+    font-weight: 400;
+}
+.right_box span{
+    font-size: 1.2rem;
+    margin-left: 6.8rem;
+}
+.right_box p{
+    line-height: 1.5rem;
+}
+.plans_right button{
+    color: orange;
+}
+.plans_right p{
+    color: whitesmoke;
+    font-size: 1rem;
+    line-height: 0.8rem;
+    font-weight: 400;
+}
+.plans_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    cursor: pointer;
+    background-color: gray;
+}
